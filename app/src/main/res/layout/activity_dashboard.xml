@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".dashboard">
+
+    <EditText
+        android:layout_marginTop="55dp"
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:gravity="start|top"
+        android:background="@drawable/edittext_border"
+
+        android:inputType="textMultiLine"
+        android:hint="Write Your Complaint Here"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="124dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="34dp"
+        android:text="Submit"
+        android:textStyle="bold"
+      android:layout_marginLeft="65dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+    <Button
+        android:layout_width="124dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="34dp"
+        android:text="Cancel"
+        android:textStyle="bold"
+       android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+    </LinearLayout>
+
+</LinearLayout>
